@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Java Programming Documentation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <nav id="navbar">
+        <header>Java Programming Documentation</header>
+        <a class="nav-link" href="#introduction">Introduction</a>
+        <a class="nav-link" href="#data_types">Data Types</a>
+        <a class="nav-link" href="#control_structures">Control Structures</a>
+        <a class="nav-link" href="#methods">Methods</a>
+        <a class="nav-link" href="#classes_and_objects">Classes and Objects</a>
+        <a class="nav-link" href="#inheritance">Inheritance</a>
+        <a class="nav-link" href="#interfaces">Interfaces</a>
+        <a class="nav-link" href="#exception_handling">Exception Handling</a>
+        <a class="nav-link" href="#collections">Collections</a>
+    </nav>
+
+    <main id="main-doc">
+        <section class="main-section" id="introduction">
+            <header>Introduction</header>
+            <p>Java is a high-level, class-based, object-oriented programming language that is designed to have as few
+                implementation dependencies as possible.</p>
+            <p>It is a general-purpose programming language intended to let application developers write once, run
+                anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the
+                need for recompilation.</p>
+        </section>
+
+        <section class="main-section" id="data_types">
+            <header>Data Types</header>
+            <p>Java has several built-in data types:</p>
+            <ul>
+                <li><code>int</code>: Integer values</li>
+                <li><code>double</code>: Floating-point values</li>
+                <li><code>char</code>: Single 16-bit Unicode character</li>
+                <li><code>boolean</code>: Represents true or false</li>
+                <li><code>String</code>: A sequence of characters</li>
+            </ul>
+            <p>Example:</p>
+            <pre><code>int number = 10;
+double price = 19.99;
+char letter = 'A';
+boolean isJavaFun = true;
+String greeting = "Hello, Java!";
+</code></pre>
+            <p>Output:</p>
+            <pre><code>number: 10
+price: 19.99
+letter: A
+isJavaFun: true
+greeting: Hello, Java!
+</code></pre>
+        </section>
+
+        <section class="main-section" id="control_structures">
+            <header>Control Structures</header>
+            <p>Control structures allow you to control the flow of your program:</p>
+            <pre><code>int x = 10;
+if (x > 5) {
+    System.out.println("x is greater than 5");
+} else {
+    System.out.println("x is less than or equal to 5");
+}
+</code></pre>
+            <p>Output:</p>
+            <pre><code>x is greater than 5
+</code></pre>
+        </section>
+
+        <section class="main-section" id="methods">
+            <header>Methods</header>
+            <p>Methods are blocks of code that perform a specific task:</p>
+            <pre><code>public int add(int a, int b) {
+    return a + b;
+}
+
+int result = add(5, 3);
+System.out.println(result);  // Output: 8
+</code></pre>
+            <p>Output:</p>
+            <pre><code>8
+</code></pre>
+        </section>
+
+        <section class="main-section" id="classes_and_objects">
+            <header>Classes and Objects</header>
+            <p>Java is an object-oriented programming language. A class is a blueprint for creating objects:</p>
+            <pre><code>public class Dog {
+    String name;
+    int age;
+
+    public Dog(String name, int age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+
+Dog myDog = new Dog("Buddy", 3);
+System.out.println(myDog.name + " is " + myDog.age + " years old.");
+</code></pre>
+            <p>Output:</p>
+            <pre><code>Buddy is 3 years old.
+ </code></pre>
+        </section>
+
+        <section class="main-section" id="inheritance">
+            <header>Inheritance</header>
+            <p>Inheritance allows a new class to inherit properties and methods from an existing class:</p>
+            <pre><code>public class Animal {
+    void eat() {
+        System.out.println("This animal eats food.");
+    }
+}
+
+public class Dog extends Animal {
+    void bark() {
+        System.out.println("The dog barks.");
+    }
+}
+
+Dog myDog = new Dog();
+myDog.eat();  // Inherited method
+myDog.bark(); // Dog's own method
+</code></pre>
+            <p>Output:</p>
+            <pre><code>This animal eats food.
+The dog barks.
+</code></pre>
+        </section>
+
+        <section class="main-section" id="interfaces">
+            <header>Interfaces</header>
+            <p>An interface in Java is a reference type, similar to a class, that can contain only constants, method
+                signatures, default methods, static methods, and nested types:</p>
+            <pre><code>public interface Animal {
+    void eat();
+    void sleep();
+}
+
+public class Dog implements Animal {
+    public void eat() {
+        System.out.println("The dog eats.");
+    }
+    
+    public void sleep() {
+        System.out.println("The dog sleeps.");
+    }
+}
+
+Dog myDog = new Dog();
+myDog.eat();
+myDog.sleep();
+</code></pre>
+            <p>Output:</p>
+            <pre><code>The dog eats.
+The dog sleeps.
+</code></pre>
+        </section>
+
+        <section class="main-section" id="exception_handling">
+            <header>Exception Handling</header>
+            <p>Java provides a robust mechanism for handling exceptions:</p>
+            <pre><code>try {
+    int result = 10 / 0; // This will throw an exception
+} catch (ArithmeticException e) {
+    System.out.println("Cannot divide by zero.");
+} finally {
+    System.out.println("This block always executes.");
+}
+</code></pre>
+            <p>Output:</p>
+            <pre><code>Cannot divide by zero.
+This block always executes.
+</code></pre>
+        </section>
+
+        <section class="main-section" id="collections">
+            <header>Collections</header>
+            <p>Java Collections Framework provides a set of classes and interfaces for storing and manipulating groups
+                of data:</p>
+            <pre><code>import java.util.ArrayList;
+
+ArrayList<String> list = new ArrayList<>();
+list.add("Apple");
+list.add("Banana");
+System.out.println(list);
+</code></pre>
+            <p>Output:</p>
+            <pre><code>[Apple, Banana]
+</code></pre>
+        </section>
+    </main>
+</body>
+
+</html>
