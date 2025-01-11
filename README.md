@@ -13,18 +13,18 @@
   <img src="./certificate/rishi_banerjee_certification.png" alt="Certificate">
 </div>
 <div align="center">
-  <h3><a href="">Certificate Link</a></h3>
+  <h3><a href="https://www.freecodecamp.org/certification/QwertyFusion/responsive-web-design">Certificate Link</a></h3>
 </div>
 
 <h2>Contents</h2>
 
-| Assignment                                                                                                                                                                      | Solution                     |
-| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------- |
-| [Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)                                                    | [Click here](./survey-form/) |
-| [Tribute Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page)                                                 | [Click here]()               |
-| [Technical Documentation Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page) | [Click here]()               |
-| [Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)                         | [Click here]()               |
-| [Personal Portfolio Webpage](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage)       | [Click here]()               |
+| Assignment                                                                                                                                                                      | Solution                                    |
+| ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------- |
+| [Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)                                                    | [Click here](./survey-form/)                |
+| [Tribute Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page)                                                 | [Click here](./tribute-page/)               |
+| [Technical Documentation Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page) | [Click here](./technical-document-page/)    |
+| [Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)                         | [Click here](./project-landing-page/)       |
+| [Personal Portfolio Webpage](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage)       | [Click here](./personal-portfolio-webpage/) |
 
 <h2>Tools used</h2>
 <ol>
