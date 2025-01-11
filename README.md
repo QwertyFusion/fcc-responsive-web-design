@@ -23,7 +23,7 @@
 | [Survey Form](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-survey-form-project/build-a-survey-form)                                                    | [Click here](./survey-form/)                |
 | [Tribute Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-tribute-page-project/build-a-tribute-page)                                                 | [Click here](./tribute-page/)               |
 | [Technical Documentation Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-technical-documentation-page-project/build-a-technical-documentation-page) | [Click here](./technical-document-page/)    |
-| [Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)                         | [Click here](./project-landing-page/)       |
+| [Product Landing Page](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-product-landing-page-project/build-a-product-landing-page)                         | [Click here](./product-landing-page/)       |
 | [Personal Portfolio Webpage](https://www.freecodecamp.org/learn/2022/responsive-web-design/build-a-personal-portfolio-webpage-project/build-a-personal-portfolio-webpage)       | [Click here](./personal-portfolio-webpage/) |
 
 <h2>Tools used</h2>
